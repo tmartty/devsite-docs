@@ -136,7 +136,7 @@ curl -X POST \
 }"
 ```
 
-> The [services](https://www.mercadopago.com.ar/developers/en/localization/gateway) vary according to country and must be previously acquired.
+> The [services](https://www.mercadopago.com.ar/developers/en/guides/localization/gateway) vary according to country and must be previously acquired.
 
 ## Next steps
 
