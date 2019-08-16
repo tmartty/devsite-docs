@@ -168,18 +168,18 @@ This process will explain how to configure the module to accept Mercado Envios:
 
 2. Go to the menu **Systems > Configuration**, in the settings page go to the option **Shipping Methods**:
 
-![Configuring the Mercado Envios in Magento](/images/plugins/modules/magento/config-me-01.gif)
+![Configuring the Mercado Envios in Magento](/images/magento/config-me-01.gif)
 
 3. To enable the Mercado Envios, go to the **Mercado Envios** option, click in **Configure** and check **Enable** as **Yes**
-![Enabling Market Shipments in Magento](/images/plugins/modules/magento/config-me-02.gif)
+![Enabling Market Shipments in Magento](/images/magento/config-me-02.gif)
 
 4. Go to the option **Product attributes mapping** and select according to the attributes that you have configured in your store. Configure the available shipping methods in the **Available shipping methods** option. Click the **Save Config** option to save the settings:
 
-![Configuring products in Marketplace](/images/plugins/modules/magento/config-me-03.gif)
+![Configuring products in Marketplace](/images/magento/config-me-03.gif)
 
 5. Very good! The Mercado Envios has been configured and enable successfully!
 
-![Mercado Envios configured successfully](/images/plugins/modules/magento/me_save.png)
+![Mercado Envios configured successfully](/images/magento/me_save.png)
 
 
 <a name="Configure-Subscriptions"></a>
@@ -189,19 +189,19 @@ This process will explain how to configure the module to accept recurring paymen
 
 1. Go to the **Systems > Configuration**, in the settings page go to the option **Payment Methods**:
 
-![Configuring recurring payments](/images/plugins/modules/magento/config-01.gif)
+![Configuring recurring payments](/images/magento/config-01.gif)
 
 2. To set up the credentials go to **Mercado Pago - Recurring Payments**, click in **Configure**. you will see the field **Client id** and **Client Secret**. [Get your credentials](https://www.mercadopago.com/mla/account/credentials?type=basic)  
 
-![Configuring Credentials - Recurring Payments](/images/plugins/modules/magento/config-re-01.gif)
+![Configuring Credentials - Recurring Payments](/images/magento/config-re-01.gif)
 
 3. With your credentials filled, you need to enable payment methods. Click in **Configure** and check **Enable** as **Yes**.
 
-![Enabling payment method in Magento - Recurring Payments](/images/plugins/modules/magento/config-re-02.gif)
+![Enabling payment method in Magento - Recurring Payments](/images/magento/config-re-02.gif)
 
 4.  Very good! The recurring payments has been configured and enable successfully!
 
-![Recurring Payments configured successfully](/images/plugins/modules/magento/save.png)
+![Recurring Payments configured successfully](/images/magento/save.png)
 
 
 <a name="Payment-Notification-status-settings"></a>
@@ -212,17 +212,17 @@ This process will explain how to set up order statuses for payment notifications
 1. Go to the **Systems > Configuration**, in the settings page go to the option **Payment Methods**:
 
 ![Accessing the payment method to configure the status of Payment Notifications](/images/magento-config-01.gif)
-![](/images/plugins/modules/magento/config-01.gif)
+![](/images/magento/config-01.gif)
 
 2. To configure the statuses go to **Mercado Pago - Global Configuration**, go to the option **Order Status Options**.
 For each payment status you can choose an order status, as soon as your store receives the payment notification the module will automatically update the order to the chosen status. To save the settings click the **Save Config** button.
 
-![Configure payment notification status](/images/plugins/modules/magento/config-06.gif)
+![Configure payment notification status](/images/magento/config-06.gif)
 
 > The module is prepared to receive payment notifications automatically, that is, without the need to configure your Mercado Pago account or module.
 
 3. Very Good! The notification statuses have been successfully configured.
 
-![Status of Payment notifications configured successfully](/images/plugins/modules/magento/save.png)
+![Status of Payment notifications configured successfully](/images/magento/save.png)
 
  
