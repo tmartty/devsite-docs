@@ -4,26 +4,16 @@ samples:
 - search_curl.sh
 - search_curl_response.json
 use:
-- id
 - status
 - external_reference
 - preference_id
-- payments
-- shipments
-- collector
 - marketplace
-- notification_url
 - date_created
 - last_updated
 - sponsor_id
-- shipping_cost
-- total_amount
 - site_id
-- paid_amount
-- refunded_amount
 - payer
 - items
-- cancelled
 - additional_info
 - application_id
 errors:
