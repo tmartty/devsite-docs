@@ -1,2 +1,2 @@
   curl -X GET \
-  'http://api.mp.internal.ml.com/merchant_orders/839194759?caller.id=340130264'
+  'https://api.mercadopago.com//merchant_orders/:id?access_token=ACCESS_TOKEN_ENV'
