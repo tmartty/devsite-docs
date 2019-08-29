@@ -1,7 +1,7 @@
 {
   "elements": [
     {
-      "id": 839194759,
+      "id": 1100000001,
       "status": "closed",
       "external_reference": "default",
       "preference_id": "340130264-04cd86e2-c44a-4cfe-8bd4-cec60903d911",
@@ -23,7 +23,7 @@
       ],
       "shipments": [],
       "collector": {
-        "id": 340130264,
+        "id": 1,
         "email": null,
         "nickname": null
       },
@@ -38,7 +38,7 @@
       "paid_amount": 5,
       "refunded_amount": 0,
       "payer": {
-        "id": 337631529,
+        "id": 1,
         "email": null
       },
       "items": [

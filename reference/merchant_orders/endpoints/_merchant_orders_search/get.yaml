@@ -1,8 +1,8 @@
 ---
 resource: merchant_orders.raml
 samples:
-- search_curl.sh
-- search_curl_response.json
+- get_search_curl.sh
+- get_search_curl_response.json
 use:
 - status
 - external_reference
@@ -14,7 +14,6 @@ use:
 - site_id
 - payer
 - items
-- additional_info
 - application_id
 errors:
   - 400 BAD_REQUEST:
