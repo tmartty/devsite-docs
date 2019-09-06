@@ -25,7 +25,7 @@ We know, some terms are technical and you may not be familiar with all of them. 
 | TAXES_AMOUNT | Taxes charged for gross income withholdings. |
 | COUPON_AMOUNT | Discount coupon amount. Only the gross amount (`GROSS_AMOUNT`) is discounted if provided by the seller. |
 | INSTALLMENTS | Number of installments in which the operation was carried out. |
-| PAYMENT METHOD | Payment method. ----[mla]---- [It can be](https://www.mercadopago.com.ar/developers/es/guides/localization/payment-methods/#bookmark_argentina)  ------------ ----[mlb]---- [It can be](https://www.mercadopago.com.ar/developers/es/guides/localization/payment-methods/#bookmark_brasil) ------------ ----[mpe]---- [It can be](https://www.mercadopago.com.ar/developers/es/guides/localization/payment-methods/#bookmark_perú)  ------------ ----[mco]---- [It can be](https://www.mercadopago.com.ar/developers/es/guides/localization/payment-methods/#bookmark_colombia)  ------------ ----[mlm]---- [It can be](https://www.mercadopago.com.ar/developers/es/guides/localization/payment-methods/#bookmark_méxico) ------------ ----[mlu]---- [It can be](https://www.mercadopago.com.ar/developers/es/guides/localization/payment-methods/#bookmark_uruguay) ------------ ----[mlc]---- [It can be](https://www.mercadopago.com.ar/developers/es/guides/localization/payment-methods/#bookmark_chile) ------------ |
+| PAYMENT METHOD | Payment method. ----[mla]---- [It can be](https://beta.mercadopago.com.ar/developers/es/guides/localization/payment-methods/#bookmark_argentina)  ------------ ----[mlb]---- [It can be](https://beta.mercadopago.com.ar/developers/es/guides/localization/payment-methods/#bookmark_brasil) ------------ ----[mpe]---- [It can be](https://beta.mercadopago.com.ar/developers/es/guides/localization/payment-methods/#bookmark_perú)  ------------ ----[mco]---- [It can be](https://beta.mercadopago.com.ar/developers/es/guides/localization/payment-methods/#bookmark_colombia)  ------------ ----[mlm]---- [It can be](https://beta.mercadopago.com.ar/developers/es/guides/localization/payment-methods/#bookmark_méxico) ------------ ----[mlu]---- [It can be](https://beta.mercadopago.com.ar/developers/es/guides/localization/payment-methods/#bookmark_uruguay) ------------ ----[mlc]---- [It can be](https://beta.mercadopago.com.ar/developers/es/guides/localization/payment-methods/#bookmark_chile) ------------ |
 | TAX_DETAIL | <br/> Description of the tax withheld by operation in `TAXES_AMOUNT`. ----[mla]----  It can take the following values according to the jurisdiction: <br/>cordoba<br/>mendoza<br/>la_pampa<br/>santa_fe<br/>tucuman<br/>entre_rios<br/>catamarca<br/>neuquen<br/>santiago_del_estero<br/>rio_negro<br/>jujuy ------------ <br/><br/> |
 | TAX_AMOUNT_TELCO | It is the value of the tax on telecommunications companies that is deducted from the gross value. |
 | TRANSACTION_APPROVAL_DATE | Date of approval of the operation. |
@@ -46,7 +46,7 @@ We know, some terms are technical and you may not be familiar with all of them. 
 >
 > Crea tus reportes de forma manual o programada desde tu cuenta de Mercado Pago.
 >
-> [Generación desde Mercado Pago](https://www.mercadopago.com/developers/es/guides/manage-account/reports/available-money/panel)
+> [Generación desde Mercado Pago](https://beta.mercadopago.com/developers/es/guides/manage-account/reports/available-money/panel)
 
 > RIGHT_BUTTON_REQUIRED_ES
 >
@@ -54,4 +54,4 @@ We know, some terms are technical and you may not be familiar with all of them. 
 >
 > Crea reportes de forma programada y manual por medio de una integración con Mercado Pago.
 >
-> [Generación por API](https://www.mercadopago.com/developers/es/guides/manage-account/reports/available-money/api)
+> [Generación por API](https://beta.mercadopago.com/developers/es/guides/manage-account/reports/available-money/api)
