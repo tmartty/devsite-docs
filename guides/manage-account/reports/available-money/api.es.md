@@ -455,7 +455,7 @@ Conoce los campos que puedes configurar para ajustar tus preferencias:
 | `refund_detailed` (opcional) | <br/>Muestra el código de referencia (external_reference) del reembolso en vez del código de referencia (external_reference) del pago.<br/><br/> |
 | `include_withdrawal` (opcional) | <br/>Incluye los retiros de dinero en el reporte.<br/><br/> |
 | `coupon_detailed` (opcional) | <br/>Suma una columna para mostrar el detalle de los cupones de descuento.<br/><br/> |
-| `detailed` | <br/>Incluye las columnas para mostrar la comisión de Mercado Pago (mp_fee_amount, financing_fee_amount, etc). <br/><br/>|
+| `detailed` | <br/>Incluye las columnas para mostrar la comisión de Mercado Pago mp_fee_amount, financing_fee_amount, etc. <br/><br/>|
 | `file_name_prefix` | <br/>Prefijo que compone el nombre del reporte una vez generado y listo para descargar.<br/><br/> |
 | `frequency` | <br/>Indica la frecuencia diaria, semanal o mensual de los reportes programados.<br/><br/> - `frequency` aplica type *monthly* al día del mes o *weekly* el día de la semana<br/> - `hour` hora del día en la que generar el reporte <br/> - `type` indica el tipo de frecuencia *daily* (diaria), *weekly* (semanal) y *monthly* (mensual).<br/><br/> |
 | `scheduled` (read_only) | <br/>Campo informativo que indica si ya existen reportes programados en la cuenta de usuario.<br/><br/> |
@@ -965,7 +965,7 @@ DATE,SOURCE_ID,EXTERNAL_REFERENCE,RECORD_TYPE,DESCRIPTION,NET_CREDIT_AMOUNT,NET_
 >
 > Puedes generar tus reportes de Dinero Disponible desde el panel de Mercado Pago en tres simples pasos.
 >
-> [Generación desde Mercado Pago](https://beta.mercadopago.com/developers/es/guides/manage-account/reports/available-money/panel)
+> [Generación desde Mercado Pago](https://beta.mercadopago.com.ar/developers/es/guides/manage-account/reports/available-money/panel)
 
 > RIGHT_BUTTON_REQUIRED_ES
 >
@@ -973,5 +973,5 @@ DATE,SOURCE_ID,EXTERNAL_REFERENCE,RECORD_TYPE,DESCRIPTION,NET_CREDIT_AMOUNT,NET_
 >
 > Puedes generar un reporte cada vez que retires dinero disponible a una cuenta bancaria.
 >
-> [Generación por retiro](https://beta.mercadopago.com/developers/es/guides/manage-account/reports/available-money/withdrawal)
+> [Generación por retiro](https://beta.mercadopago.com.ar/developers/es/guides/manage-account/reports/available-money/withdrawal)
 
