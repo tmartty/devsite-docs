@@ -1,8 +1,8 @@
 ---
 resource: merchant_orders.raml
 samples:
-- get_search_curl.sh
-- get_search_curl_response.json
+- search_curl.sh
+- search_curl_response.json
 use:
 - status
 - external_reference
@@ -28,3 +28,8 @@ errors:
           en: invalid_token.
           es: invalid_token.
           pt: invalid_token.
+    - invalid_caller_id:
+        description:
+          en: invalid caller_id
+          es: invalid caller_id
+          pt: invalid caller_id

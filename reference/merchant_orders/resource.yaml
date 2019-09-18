@@ -319,6 +319,11 @@ properties:
           en: Item id.
           es: Identificador del ítem.
           pt: Id do anúncio.
+        enum:
+          - put:
+              en: Required in PUT
+              es: Requerido en PUT
+              pt: Required in PUT
     - category_id:
         type: String
         description:
@@ -375,9 +380,14 @@ properties:
     - quantity:
         type: Integer
         description:
-          en: Total amount paid by the buyer.
-          es: Monto total pagado por el comprador.
-          pt: Montante total pago pelo comprador.
+          en: Item quantity.
+          es: Cantidad de items.
+          pt: Item quantity.
+        enum:
+          put:
+            en: This is the only field of item that can be modiffied in put
+            es: Este es el único campo de ítem que puede ser modificado con un put put
+            pt: This is the only field of item that can be modiffied in put
     - unit_price:
         type: Float
         description:
