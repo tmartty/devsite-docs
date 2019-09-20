@@ -384,7 +384,7 @@ properties:
           es: Cantidad de items.
           pt: Item quantity.
         enum:
-          put:
+          - put:
             en: This is the only field of item that can be modiffied in put
             es: Este es el único campo de ítem que puede ser modificado con un put put
             pt: This is the only field of item that can be modiffied in put
